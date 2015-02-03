@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="DBPhoneInterface.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DBPhoneInterface"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button HorizontalAlignment="Center" Margin="0,265,0,0" Content="Find Question" VerticalAlignment="Top" Width="165" Click="Button_Click"/>
+        <Button HorizontalAlignment="Center" Margin="0,309,0,0" Content="Find Answer" VerticalAlignment="Top" Width="165" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,183,0,0" TextWrapping="Wrap" Text="Please Choose your Desired Activity" VerticalAlignment="Top" Height="21" FontSize="18"/>
+    </Grid>
+</Page>
